@@ -1,0 +1,74 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+
+  font-family: 'Dosis', sans-serif;
+  color: white;
+}
+.menu {
+  color: white;
+  padding-right: 15px;
+  font-size: 20px;
+}
+.parrafo {display: flex;
+          align-items: flex-end;
+          }
+.menus{
+      display: flex;
+
+      justify-content: space-around;
+      color: black;
+         }
+ul{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.h1{
+  padding-left: 15px;
+}
+.h2 {color: black;
+     font-size: 40px;
+    }
+.section1 {display: flex;
+           padding: 200px 15px 15px 15px;
+           color: black;
+            }
+.form {padding-right: 30px;
+      padding: 100px 15px 15px 15px;
+    width: 100px;}
+
+.section2 {padding-left: 15px;}
+
+.section3 {font-family:;
+  padding-left: 15px;
+    }
+.servicios {
+  padding-top:120px;
+  padding-left: 40px;
+  font-size: 20px;
+  color: black
+}
+.navegador {display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          background-color: gray;
+          width: 100%;
+          height: 100px;
+          position: fixed;
+          top: 0;
+          padding: 0;
+        }
+  .logo {
+    max-height: 100%;
+  }
+
+  .imagen2{padding-right: 15px;}

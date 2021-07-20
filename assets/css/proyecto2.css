@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  ul{list-style: none;
+  }
+  a{text-decoration: none;
+     }
+  body {
+    background-color:lightblue; /*color de fondo*/
+    font-family: 'Dosis', sans-serif; /*tipo de letra*/
+    color:dodgerblue; /*color de letra*/
+      margin: 1rem; /*margen*/
+     }
+  .menu {display:flex;
+    justify-content:space-between; /*justificacion de espaciado*/
+         }    
+  .menu2 {padding-right: 2.5rem;
+        font-family: cursive;
+        color: lightseagreen;
+        font-size: 10px; /*medida de la fuente*/
+        display: flex;
+        justify-content: flex-start;
+       
+         }
+          @media (min-width: 1000px){ /*medidas para dispositivos*/
+            .menu2 {font-size: 30px;
+            padding-right: 5rem;}
+          }
+  .navbar {
+  background-color: lightcyan;
+           display:flex;
+           justify-content: flex-start;
+           flex-direction: row;
+           align-items: center;
+           padding: 1.5rem
+              }       
+  .servicio { padding: 1.5rem;
+             width: 10px;
+             height: 10px;
+             font-size: 50px;
+             background-color:darkgrey;
+             color:darkgrey;
+             }
+
+ .p {font-size: 20px;
+             padding: 1rem;
+            color:black;}
+  
+.gestoria2 {font-size: 10px;
+          padding-top: 2rem;
+          color:lightseagreen;
+        }
+            @media (min-width: 1000px){
+              .gestoria2 {font-size: 35px;
+              padding-right: 2rem;}
+            
+.contactos1 {color:lightseagreen;
+            font-size: 10px; 
+           }         
+           @media (min-width: 1000px){
+            .contactos1 {font-size: 20px;
+            padding-right: 2rem;
+          }
+.p2 {color:black;
+              }
+.h3 {font-size: 40px;
+     padding-top: 2REM;
+     display: flex;}
+  
+.volskwagen {width:200px;
+           height: 200px;
+           padding-top: 50px;
+    }
+.img1 {width:200px;
+      height: 200px;
+      padding-top: 50px;
+        }
+.img2{width: 200px;
+       height: 200px;
+       padding-top: 50px;
+      }
+.img3 {width: 200px;
+  height: 200px;
+  padding-top: 50px;
+      }
+.img4 {width: 200px;
+    height: 200px; 
+    padding-top: 50px;
+       }
+.img5{width: 150px;
+  height: 150px; 
+  padding-top: 50px}
+
+.h4 {padding-top: 100px;}
+
+
+
+.ford {width: 200px;
+  height: 200px; 
+  padding-top: 50px;}
+
+.ford1 {width: 200px;
+  height: 200px; 
+  padding-top: 50px;}
+
+.ford2 {width: 200px;
+  height: 200px; 
+  padding-top: 50px;}
+
+.ford3 {width: 200px;
+  height: 200px; 
+  padding-top: 50px;}
+
+.ford4 {width: 200px;
+  height: 200px; 
+  padding-top: 50px;}
+
+.ford5 {width: 200px;
+  height: 200px; 
+  padding-top: 50px;}
+
+.toyota {width: 200px;
+  height: 200px; 
+  padding-top: 50px;}
+
+.toyota1{width: 200px;
+  height: 200px; 
+  padding-top: 50px;}
+
+.toyota2{width: 200px;
+  height: 200px; 
+  padding-top: 50px;}
+
+.toyota3 {width: 200px;
+  height: 200px; 
+  padding-top: 50px;}
+
+.chevrolet {width: 200px;
+  height: 200px; 
+  padding-top: 50px;}
+
+.chevrolet1 {width: 200px;
+  height: 200px; 
+  padding-top: 50px;}
+
+.chevrolet2 {width: 200px;
+  height: 200px; 
+  padding-top: 50px;}
+
+.chevrolet3  {width: 200px;
+  height: 200px; 
+  padding-top: 50px;}
+
+
+.usados {width: 200px;
+  height: 200px; 
+  padding-top: 50px;}
+
+.usados1 {color:lightseagreen;
+  font-size: 30px;}
+
+.lapiz {width: 175px;
+       height: 175px;
+      padding-top: 60px;}
+.form {width: 175px;
+  height: 175px;
+ padding-top: 60px;}
+
+.logo {font-family: 'Merienda', cursive;
+    color: black;
+  font-size: 15PX;
+display: flex;
+align-items:center;
+flex-direction: column;}
+
+.card {background-color: pink;}
+
+.nuevo {color:lightseagreen;
+  font-size: 30px; }
+
+.h6{padding-top: 0.5rem;}
