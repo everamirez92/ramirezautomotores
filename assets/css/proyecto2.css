@@ -19,7 +19,7 @@
   .menu2 {padding-right: 2.5rem;
         font-family: cursive;
         color: lightseagreen;
-        font-size: 10px; /*medida de la fuente*/
+        font-size: 15px; /*medida de la fuente*/
         display: flex;
         justify-content: flex-start;
        
@@ -31,7 +31,7 @@
   .navbar {
   background-color: lightcyan;
            display:flex;
-           justify-content: flex-start;
+           justify-content: space-between;
            flex-direction: row;
            align-items: center;
            padding: 1.5rem
@@ -44,13 +44,15 @@
              color:darkgrey;
              }
 
- .p {font-size: 20px;
-             padding: 1rem;
+ .p {font-size: 15px;
+             /*padding: 1rem; */
             color:black;}
   
 .gestoria2 {font-size: 10px;
           padding-top: 2rem;
           color:lightseagreen;
+          display: flex;
+          justify-content: center;
         }
             @media (min-width: 1000px){
               .gestoria2 {font-size: 35px;
@@ -73,25 +75,16 @@
            height: 200px;
            padding-top: 50px;
     }
-.img1 {width:200px;
-      height: 200px;
+.img1 {width:10px;
+      height: 10px;
       padding-top: 50px;
         }
-.img2{width: 200px;
-       height: 200px;
-       padding-top: 50px;
-      }
-.img3 {width: 200px;
-  height: 200px;
-  padding-top: 50px;
-      }
-.img4 {width: 200px;
-    height: 200px; 
-    padding-top: 50px;
-       }
+       
+
 .img5{width: 150px;
-  height: 150px; 
-  padding-top: 50px}
+  height: 200px; 
+  padding-top: 50px;
+object-fit: cover;}
 
 .h4 {padding-top: 100px;}
 
@@ -159,11 +152,12 @@
   padding-top: 50px;}
 
 .usados1 {color:lightseagreen;
-  font-size: 30px;}
+  font-size: 30px;
+   padding-top:50px;}
 
 .lapiz {width: 175px;
        height: 175px;
-      padding-top: 60px;}
+      object-fit: cover;}
 .form {width: 175px;
   height: 175px;
  padding-top: 60px;}
@@ -178,6 +172,22 @@ flex-direction: column;}
 .card {background-color: pink;}
 
 .nuevo {color:lightseagreen;
-  font-size: 30px; }
+  font-size: 30px; 
+   padding-top: 50px;}
 
-.h6{padding-top: 0.5rem;}
+.h6{padding-top: 0.5rem;
+ font-family: 'Merienda', cursiva;}
+
+.footer{background-color: pink;
+       width: 100%;
+       }
+.gestoria {display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+     padding: 10px;}
+
+.card-img-top {width: 100%;
+              height: 200px;
+                object-fit: cover;
+             
+}
